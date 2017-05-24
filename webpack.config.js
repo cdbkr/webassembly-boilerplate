@@ -25,7 +25,7 @@ module.exports = {
   },
   module: {
     rules: [
-        { test: /\.wast$/, loader: "wast-loader", exclude: /node_modules/ }
+        { test: /\.wat$/, loader: "wast-loader", exclude: /node_modules/ }
     ]
   },
   plugins: [
