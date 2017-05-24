@@ -1,4 +1,4 @@
-import add from "./add.wast"; 
+import add from "./add.wat";
 
 WebAssembly.instantiate(add)
 .then(module => {
