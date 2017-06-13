@@ -15,7 +15,7 @@ WebAssembly.instantiate(fact)
     });
 
 
-let factorial = (n) => {
+const factorial = (n) => {
     if (n === 0) {
         return 1;
     }
